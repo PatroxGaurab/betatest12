@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "137241633241",
+    "project_id": "yohobetest2"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137241633241:android:63946e250d5cf8b8",
+        "android_client_info": {
+          "package_name": "com.yohobe.yohobetest2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137241633241-k9ke9df2k8mpn3giri9oobqs2smedpso.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yohobe.yohobetest2",
+            "certificate_hash": "4A541652CC6F4B0C05156D3FC9B69A02D6BF8662"
+          }
+        },
+        {
+          "client_id": "137241633241-01itnollodv7e1vlcv2pknvue92v4s41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG9qhqVLm1i_ye9TlLnGLmaHXf8xnO8z4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="alertDialogTheme">@style/ErrorDialogStyle</item>
+    </style>
+
+    <style name="ErrorDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/dialog_button</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowTitleStyle">@style/WindowTitleStyle</item>
+        <item name="android:background">@color/dialog_background</item>
+    </style>
+
+    <style name="WindowTitleStyle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/dialog_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
